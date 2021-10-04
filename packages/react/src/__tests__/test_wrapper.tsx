@@ -35,7 +35,7 @@ export const TestWrapper: React.FC<IProps> = ({
   onError,
 }) => {
   return (
-    <span>
+    <span data-testid="translation" >
       <TranslationsProvider
         language={language || 'en'}
         locales={locales}
